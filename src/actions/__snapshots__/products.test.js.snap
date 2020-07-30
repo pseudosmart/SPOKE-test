@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchProducts 1`] = `Promise {}`;
+
+exports[`productFetchError 1`] = `
+Object {
+  "payload": "Error",
+  "type": "RECEIVE_PRODUCTS",
+}
+`;
+
+exports[`productFetchSuccess 1`] = `
+Object {
+  "payload": Array [
+    Object {
+      "id": "test",
+      "title": "title",
+    },
+    Object {
+      "id": "test2",
+      "title": "title",
+    },
+  ],
+  "type": "RECEIVE_PRODUCTS",
+}
+`;

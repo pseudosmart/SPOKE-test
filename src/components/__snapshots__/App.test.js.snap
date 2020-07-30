@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mapDispatchToProps it returns the correct props 1`] = `
+Object {
+  "addToBasket": [Function],
+  "fetchProducts": [Function],
+}
+`;
+
+exports[`mapStateToProps 1`] = `
+Object {
+  "basket": Object {},
+  "products": Array [],
+}
+`;
+
+exports[`renders correctly with products 1`] = `ShallowWrapper {}`;
+
+exports[`renders correctly without products 1`] = `ShallowWrapper {}`;

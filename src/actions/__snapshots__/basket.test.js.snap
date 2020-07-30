@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addToBasket 1`] = `undefined`;
+
+exports[`removeFromBasket 1`] = `
+Object {
+  "payload": Object {
+    "id": "test",
+    "title": "title",
+  },
+  "type": "REMOVE_FROM_BASKET",
+}
+`;

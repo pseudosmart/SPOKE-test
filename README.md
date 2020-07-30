@@ -16,3 +16,5 @@ or `npm test` to run the tests and check coverage.
 * The testing is very light touch at the moment, relying heavily on snapshot testing, I'd like to get some more assertion around core functionality for peace of mind.
 * Implement something around the tags, I think they could probably just be labels but it would be really nice to make certain ones like sale to really pop! 
 * Persisting the redux store would be nice, probably through local storage.
+* Store API token and URL far better than I have.
+* General life improvements with something like prettier on a pre-commit hook.
